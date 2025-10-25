@@ -46,46 +46,6 @@ const SERVERS = {
   'Vyse': {
     url: 'https://api.videasy.net/hdmovie/sources-with-title',
     language: 'Original'
-  },
-  'Killjoy': {
-    url: 'https://api.videasy.net/meine/sources-with-title',
-    language: 'German',
-    params: { language: 'german' }
-  },
-  'Harbor': {
-    url: 'https://api.videasy.net/meine/sources-with-title',
-    language: 'Italian',
-    params: { language: 'italian' }
-  },
-  'Chamber': {
-    url: 'https://api.videasy.net/meine/sources-with-title',
-    language: 'French',
-    params: { language: 'french' },
-    moviesOnly: true
-  },
-  'Fade': {
-    url: 'https://api.videasy.net/hdmovie/sources-with-title',
-    language: 'Hindi'
-  },
-  'Gekko': {
-    url: 'https://api2.videasy.net/cuevana-latino/sources-with-title',
-    language: 'Latin'
-  },
-  'Kayo': {
-    url: 'https://api2.videasy.net/cuevana-spanish/sources-with-title',
-    language: 'Spanish'
-  },
-  'Raze': {
-    url: 'https://api.videasy.net/superflix/sources-with-title',
-    language: 'Portuguese'
-  },
-  'Phoenix': {
-    url: 'https://api2.videasy.net/overflix/sources-with-title',
-    language: 'Portuguese'
-  },
-  'Astra': {
-    url: 'https://api.videasy.net/visioncine/sources-with-title',
-    language: 'Portuguese'
   }
 };
 
@@ -238,78 +198,9 @@ function normalizeLanguageName(language) {
     'en': 'English',
     'eng': 'English',
     'english': 'English',
-    'hi': 'Hindi',
-    'hin': 'Hindi',
-    'hindi': 'Hindi',
-    'de': 'German',
-    'ger': 'German',
-    'german': 'German',
-    'it': 'Italian',
-    'ita': 'Italian',
-    'italian': 'Italian',
-    'fr': 'French',
-    'fre': 'French',
-    'french': 'French',
-    'es': 'Spanish',
-    'spa': 'Spanish',
-    'spanish': 'Spanish',
-    'pt': 'Portuguese',
-    'por': 'Portuguese',
-    'portuguese': 'Portuguese',
-    'ar': 'Arabic',
-    'ara': 'Arabic',
-    'arabic': 'Arabic',
-    'zh': 'Chinese',
-    'chi': 'Chinese',
-    'chinese': 'Chinese',
     'ja': 'Japanese',
     'jpn': 'Japanese',
-    'japanese': 'Japanese',
-    'ko': 'Korean',
-    'kor': 'Korean',
-    'korean': 'Korean',
-    'bn': 'Bengali',
-    'ben': 'Bengali',
-    'bengali': 'Bengali',
-    'ta': 'Tamil',
-    'tam': 'Tamil',
-    'tamil': 'Tamil',
-    'te': 'Telugu',
-    'tel': 'Telugu',
-    'telugu': 'Telugu',
-    'ml': 'Malayalam',
-    'mal': 'Malayalam',
-    'malayalam': 'Malayalam',
-    'kn': 'Kannada',
-    'kan': 'Kannada',
-    'kannada': 'Kannada',
-    'mr': 'Marathi',
-    'mar': 'Marathi',
-    'marathi': 'Marathi',
-    'gu': 'Gujarati',
-    'guj': 'Gujarati',
-    'gujarati': 'Gujarati',
-    'pa': 'Punjabi',
-    'pan': 'Punjabi',
-    'punjabi': 'Punjabi',
-    'ur': 'Urdu',
-    'urd': 'Urdu',
-    'urdu': 'Urdu',
-    'fa': 'Persian',
-    'per': 'Persian',
-    'persian': 'Persian',
-    'tr': 'Turkish',
-    'tur': 'Turkish',
-    'turkish': 'Turkish',
-    'vi': 'Vietnamese',
-    'vie': 'Vietnamese',
-    'vietnamese': 'Vietnamese',
-    'th': 'Thai',
-    'tha': 'Thai',
-    'thai': 'Thai',
-    'id': 'Indonesian',
-    'ind': 'Indonesian',
-    'indonesian': 'Indonesian'
+    'japanese': 'Japanese'
   };
   
   const normalized = language.toLowerCase().trim();
