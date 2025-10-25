@@ -195,7 +195,7 @@
         "tv"
       ],
       "filename": "providers/vidsrc.js",
-      "enabled": false,
+      "enabled": true,
       "logo": "https://vidsrc-embed.ru/template/vidsrc-ico.png",
       "contentLanguage": [
         "en"
