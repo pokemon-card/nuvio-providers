@@ -10,7 +10,7 @@ console.log('[VidSrc] Using cheerio-without-node-native for DOM parsing');
 const TMDB_API_KEY = "439c478a771f35c05022f9feabcca01c";
 const VIDSRC_PROXY_URL = process.env.VIDSRC_PROXY_URL;
 let BASEDOM = "https://cloudnestra.com"; // This can be updated by serversLoad
-const SOURCE_URL = "https://vidsrc.xyz/embed";
+const SOURCE_URL = "https://vidsrc-embed.ru/embed";
 
 // --- Helper: Conditional Proxied Fetch ---
 // This function wraps the native fetch. If VIDSRC_PROXY_URL is set in the environment,
