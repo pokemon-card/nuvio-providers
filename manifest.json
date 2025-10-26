@@ -158,7 +158,7 @@
         "tv"
       ],
       "filename": "providers/watch32.js",
-      "enabled": false,
+      "enabled": true,
       "logo": "https://img.watch32.sx/xxrz/400x400/100/a9/5e/a95e15a880a9df3c045f6a5224daf576/a95e15a880a9df3c045f6a5224daf576.png",
       "contentLanguage": [
         "en"
@@ -212,8 +212,8 @@
         "tv"
       ],
       "filename": "providers/vidsrc.js",
-      "enabled": false,
-      "logo": "https://vidsrc.xyz/template/vidsrc-ico.png",
+      "enabled": true,
+      "logo": "https://vidsrc-embed.ru/template/vidsrc-ico.png",
       "contentLanguage": [
         "en"
       ]
