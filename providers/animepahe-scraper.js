@@ -249,7 +249,8 @@ async function loadVideoLinks(animeSession, episodeSession) {
                     url: href,
                     quality: quality,
                     type: type,
-                    extractor: 'pahe'
+                    extractor: 'animepahe'
+                    provider: 'animepahe'
                 });
             }
         });
