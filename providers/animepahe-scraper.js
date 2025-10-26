@@ -6,7 +6,7 @@ const pLimit = require('p-limit').default;
 const inquirer = require('inquirer');
 
 // Configuration
-const MAIN_URL = 'https://animepahe.ru';
+const MAIN_URL = 'https://animepahe.si';
 const PROXY_URL = 'https://animepaheproxy.phisheranimepahe.workers.dev/?url=';
 const HEADERS = {
     'Cookie': '__ddg2_=1234567890',
