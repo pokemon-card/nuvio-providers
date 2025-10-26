@@ -38,6 +38,22 @@
       "contentLanguage": [
         "en"
       ]
+    {
+      "id": "animepahe",
+      "name": "AnimePahe",
+      "description": "AnimeKai TV episodes via AnimeKai servers",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": [
+        "tv"
+      ],
+      "filename": "providers/animepahe-scraper.js",
+      "enabled": true,
+      "limited": false,
+      "logo": "https://animekai.to/assets/uploads/37585a39fe8c8d8fafaa2c7bfbf5374ecac859ea6a0288a6da2c61f5.png",
+      "contentLanguage": [
+        "en"
+      ]
     },
     {
       "id": "uhdmovies",
