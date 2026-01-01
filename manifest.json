@@ -166,8 +166,8 @@
         "tv"
       ],
       "filename": "providers/vidsrc.js",
-      "enabled": false,
-      "logo": "https://vidsrc.xyz/template/vidsrc-ico.png",
+      "enabled": true,
+      "logo": "https://vidsrc-embed.ru/template/vidsrc-ico.png",
       "contentLanguage": [
         "en"
       ]
